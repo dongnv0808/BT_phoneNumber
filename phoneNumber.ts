@@ -2,7 +2,7 @@ let viettel: string[] = [];
 let mobifone: string[] = [];
 let vinaphone: string[] = [];
 
-let listPhoneNumber: string[] = ['0387201334', '0798726299', '0852721368'];
+let listPhoneNumber: string[] = ['0387201334', '0387201334', '0798726299', '0852721368'];
 
 for(let i = 0; i < listPhoneNumber.length; i++){
     if(listPhoneNumber[i].substring(0, 3) == '037' || 
@@ -21,6 +21,6 @@ for(let i = 0; i < listPhoneNumber.length; i++){
         vinaphone.push(listPhoneNumber[i]);
     }
 }
-console.log(viettel);
-console.log(mobifone);
-console.log(vinaphone);
+console.log(`Viettel: ${viettel}`);
+console.log(`Mobifone: ${mobifone}`);
+console.log(`Vinaphone ${vinaphone}`);
